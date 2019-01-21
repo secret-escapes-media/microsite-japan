@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include page/head.html %}
+
+  <body>
+
+    {% include components/tracking.html %}
+
+    {% include page/header.html %}
+
+    {% if page.id == 'overview' %}
+      {% include banner/default.html %}
+    {% elsif page.layout == 'journey' %}
+      {% include banner/journey.html %}
+    {% elsif page.layout == 'guide' %}
+      {% include banner/guide.html %}
+    {% elsif page.layout == 'inspiration' %}
+      {% include banner/inspiration.html %}
+    {% else %}
+      {% include banner/default.html %}
+    {% endif %}
+
+    <div class="content-spacing section-spacing">
+      {{ content }}
+    </div>
+
+    {% include page/footer.html %}
+
+    {% include modal/modal.html %}
+
+  </body>
+
+</html>

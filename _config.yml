@@ -1,0 +1,27 @@
+# Site settings
+title: Wilde Natur & urbanes Design
+nav-title: Finnland
+
+client:
+  name: Finnland
+  link: "http://bit.ly/2qq9isY"
+  link2: "http://bit.ly/2JDiWkM"
+core-se-link: https://www.secretescapes.de/aktuelle-angebote
+description: >
+  Wie fotogen ist Finnland? Das wollten wir zusammen mit NIKON School Fotograf André herausfinden und haben ihn mit der Unterstützung von Visit Helsinki und Visit Espoo im September 2018 nach Finnland geschickt.
+
+# file paths
+url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
+baseurl: "/de/finnland" # the subpath of your site, e.g. /blog/
+img:     "/de/finnland/_assets/img"
+css:     "/de/finnland/_assets/css"
+js:      "/de/finnland/_assets/js"
+
+
+# Build settings
+markdown: kramdown
+exclude: [node_modules, gulpfile.js, package.json, package-lock.json, js/script.js]
+keep_files: [_assets]
+sass:
+    sass_dir: css
+    style: compressed

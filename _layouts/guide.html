@@ -1,0 +1,101 @@
+---
+layout: default
+---
+
+
+
+<div class="bg--grey-darker" >
+  <div class="wp" id="guide"></div>
+  <div class="container vpad--xxl text text--white text--center">
+    {{page.intro.long}}
+  </div>
+  {% if page.page-nav %}{% include nav/page.html %}{% endif %}
+</div>
+
+
+
+
+
+
+
+
+
+{% for section in page.sections %}
+
+<div class="wp" id="{{section.id}}"></div>
+
+<div class="bv-parallax bv-parallax--dark" style="background-image:url({{site.img}}/content/{{page.id}}/{{section.id}}.jpg); background-repeat:no-repeat; background-size:cover; background-position:center;">
+  <div class="wp" id="guide"></div>
+  <div class="container vpad--xxxxl text--center">
+      <h3 class="title title--xl text--bold">{{section.title}}</h3>
+        <div class="space--sm"></div>
+    {{section.content}}
+  </div>
+</div>
+
+
+<div class="container vpad--xs">
+  <div class="vpad--sm" style="{{section.pois1.visible}}">
+<div class="text--center">
+  <h5 class="text text--xxxl text--thin vpad--sm">{{section.pois1.title}}</h5>
+</div>
+<div class="space--lg"></div>
+<div class="row row--4-4-4 row--gutters">
+      {% for poi in section.pois1.items %}
+
+      <div class="col">
+        <a href="javascript:void(0);" data-modal-item="{{poi.id}}" data-modal-group="section" class="js-open-modal bg-img bg-img--4-3" style="background-image:url({{site.img}}/content/{{page.id}}/{{poi.id}}.jpg);">
+        <span class="bg-img__expand"></span></a>
+        <div class="space--sm"></div>
+        <h5 class="title title--xxs text--bold">{{poi.title}}</h5>
+        <p>{{poi.content}}</p>
+      </div>
+
+      <!--  <div class="col">
+        <a href="{{poi.link}}" target="_blank" class="text--white">
+        <div class="bg-img bg-img--4-3" style="background-image:url({{site.img}}/content/{{page.id}}/{{poi.id}}.jpg);"></div>
+        <div class="space--sm"></div>
+        <h5 class="title title--xxs text--bold">{{poi.title}}</h5>
+        <p>{{poi.content}}</p></a>
+      </div>
+      <div class="space--md"></div>-->
+      {% endfor %}
+</div>
+</div>
+
+<div class="vpad--sm" style="{{section.pois2.visible}}">
+<div class="text--center">
+  <h5 class="text text--xxxl text--thin vpad--sm">{{section.pois2.title}}</h5>
+</div>
+<div class="space--md"></div>
+  <div class="row row--4-4-4 row--gutters">
+    {% for poi in section.pois2.items %}
+
+    <div class="col">
+      <a href="javascript:void(0);" data-modal-item="{{photo.id}}" data-modal-group="section" class="js-open-modal bg-img bg-img--4-3" style="background-image:url({{site.img}}/content/{{page.id}}/{{poi.id}}.jpg);">
+      <span class="bg-img__expand"></span></a>
+      <div class="space--sm"></div>
+      <h5 class="title title--xxs text--bold">{{poi.title}}</h5>
+      <p>{{poi.content}}</p>
+    </div>
+    {% endfor %}
+  </div>
+  </div>
+</div>
+
+<div class="space--xl"></div>
+
+
+{% endfor %}
+
+
+
+
+
+
+
+
+
+
+
+{% include page/promo-competition.html %}

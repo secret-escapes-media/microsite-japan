@@ -1,0 +1,165 @@
+
+
+
+- id: one-1
+  title: Kanufahren im Nationalpark Oulanka
+  photoshow: display:block
+  videoshow: display:none
+  orientation: landscape
+  photographer: Z 7
+  page: kuusamo # group for whole page
+  section: one # group for section of page
+  pages: # modal required on these pages
+    - id: kuusamo
+
+
+
+- id: one-2
+  title: Rafting auf dem Fluss Kitka im Nationalpark Oulanka
+  photoshow: display:block
+  videoshow: display:none
+  orientation: landscape
+  photographer: "D850"
+  page: kuusamo # group for whole page
+  section: one # group for section of page
+  pages: # modal required on these pages
+    - id: kuusamo
+
+
+
+- id: one-3
+  title: Wandern im Nationalpark Hossa
+  photoshow: display:block
+  videoshow: display:none
+  orientation: landscape
+  photographer: "D850"
+  page: kuusamo # group for whole page
+  section: one # group for section of page
+  pages: # modal required on these pages
+    - id: kuusamo
+
+
+
+- id: one-4
+  title: Pistenspaß im Skigebiet Ruka
+  photoshow: display:block
+  videoshow: display:none
+  show: display:none
+  orientation: landscape
+  photographer: "&nbsp;"
+  page: kuusamo # group for whole page
+  section: one # group for section of page
+  pages: # modal required on these pages
+    - id: kuusamo
+
+
+
+- id: one-5
+  title: Schneeschuhwanderungen im Nationalpark Riisitunturi
+  photoshow: display:block
+  videoshow: display:none
+  show: display:none
+  orientation: landscape
+  photographer: "&nbsp;"
+  page: kuusamo # group for whole page
+  section: one # group for section of page
+  pages: # modal required on these pages
+    - id: kuusamo
+
+
+
+- id: one-6
+  title: Eisklettern im Skigebiet Ruka
+  photoshow: display:none
+  videoshow: display:block
+  youtube-id: CyL30TS9-hc
+  show: display:none
+  orientation: landscape
+  photographer: "&nbsp;"
+  page: kuusamo # group for whole page
+  section: one # group for section of page
+  pages: # modal required on these pages
+    - id: kuusamo
+
+
+
+- id: two-1
+  title: Bären beobachten
+  photoshow: display:block
+  videoshow: display:none
+  orientation: landscape
+  photographer: Z 7
+  page: kuusamo # group for whole page
+  section: two # group for section of page
+  pages: # modal required on these pages
+    - id: kuusamo
+
+
+
+- id: two-2
+  title: Husky-Safaris
+  photoshow: display:none
+  videoshow: display:block
+  youtube-id: 4aBb3pMiLo8
+  show: display:none
+  orientation: landscape
+  photographer: "&nbsp;"
+  page: kuusamo # group for whole page
+  section: two # group for section of page
+  pages: # modal required on these pages
+    - id: kuusamo
+
+
+
+- id: two-3
+  title: Rentier-Safaris
+  photoshow: display:block
+  videoshow: display:none
+  orientation: landscape
+  photographer: "D850"
+  page: kuusamo # group for whole page
+  section: two # group for section of page
+  pages: # modal required on these pages
+    - id: kuusamo
+
+
+
+- id: three-1
+  title: Nordlicht-Magie
+  photoshow: display:block
+  videoshow: display:none
+  show: display:none
+  orientation: landscape
+  photographer: "&nbsp;"
+  page: kuusamo # group for whole page
+  section: three # group for section of page
+  pages: # modal required on these pages
+    - id: kuusamo
+
+
+
+- id: three-2
+  title: Wild Food
+  show: display:block
+  photoshow: display:block
+  videoshow: display:none
+  orientation: landscape
+  photographer: "D850"
+  page: kuusamo # group for whole page
+  section: three # group for section of page
+  pages: # modal required on these pages
+    - id: kuusamo
+
+
+
+- id: three-3
+  title: Saunatouren
+  photoshow: display:block
+  videoshow: display:none
+  show: display:none
+  orientation: landscape
+  photographer: "&nbsp;"
+  page: kuusamo # group for whole page
+  section: three # group for section of page
+  pages: # modal required on these pages
+    - id: kuusamo

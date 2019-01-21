@@ -1,0 +1,198 @@
+// general styles for the project that wouldn't be a reuseable component
+
+.bg {
+  &--white { background-color: $white; }
+  &--grey-light { background-color: $grey-light; }
+  &--grey-lighter { background-color: $grey-lighter; }
+  &--grey-lightest { background-color: $grey-lightest; }
+  &--grey { background-color: $grey; }
+  &--grey-dark { background-color: $grey-dark; }
+  &--grey-darker { background-color: $grey-darker; }
+  &--grey-darkest { background-color: $grey-darkest; }
+  // images
+  &--fixed {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+
+
+
+.journey {
+  // Video section
+  &__video { z-index: $z-content-upper; }
+  &__video-section { position: relative; }
+  &__video-fade {
+    z-index: $z-content;
+    height: 30%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(../img/icons/gradient--grey-darkest.png);
+    background-size: auto 100%;
+    background-repeat: repeat-x;
+    background-position: bottom;
+  }
+  // Photo sections
+  &__photo {}
+  &__photo-image {}
+  &__photo-text {}
+  &__photo-map {
+    width: 480px;
+  }
+  // Conclusion section
+  &__conclusion {
+    &-expert {
+      position: relative;
+      padding: $s4;
+      margin-left: $s4;
+      margin-top: $s4;
+      @include bp($xl){
+        margin: 0;
+      }
+      &:before,
+      &:after {
+        content: "";
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      &:before {
+        top: 0;
+        left: 0;
+        background-image: url('../img/icons/frame-tl.svg');
+      }
+      &:after {
+        bottom: 0;
+        right: 0;
+        background-image: url('../img/icons/frame-br.svg');
+      }
+    }
+  }
+}
+
+
+
+
+
+.competition {
+  &__form {
+    overflow: hidden;
+  }
+}
+
+
+.bv-link-nikon{ color:$n-yellow; }
+
+.bv-mob-left {
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+
+  .bv-mob-left {
+  text-align: left;
+  //color: #ff0;
+}
+}
+
+
+/* ==========================================================================
+   Divider
+   ========================================================================== */
+
+
+
+.bv-divider::after {
+  content: ('––');
+  display: block;
+  color: $white;
+  font-size: $s6;
+  letter-spacing: -1px;
+  margin: 0 0 -2px 2px;}
+
+
+
+.bv-arrow {
+
+    font-family: $font-title-01;
+    left: 50%;
+    width: 1.7em;
+    height: 1.7em;
+    margin: 0 auto;
+    background-repeat: no-repeat ;
+    background-image: url('../img/icons/arrow-left.svg');
+    background-size: auto (1.2em/.6);
+    background-position: 52% center;
+    transform: rotate(270deg);
+  }
+
+
+
+/* ==========================================================================
+   Gradient
+   ========================================================================== */
+
+
+
+.bv-brand-gradient {
+  background-color: $vf-pink; /* For browsers that do not support gradients */
+  background-image: linear-gradient(-45deg, $vf-gr-orange, $vf-gr-pink); /* Standard syntax (must be last) */
+}
+
+
+/* ==========================================================================
+   Parallax
+   ========================================================================== */
+
+.bv-parallax{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+.bv-remove-bg{
+  background-image: none!important;
+
+  &--black{
+    background-image: none!important;
+    background-color: #000;
+    }
+}
+
+.bv-parallax{
+      background-attachment: scroll;
+      background-size: cover;
+
+      }
+
+}
+
+
+
+
+/*************** offer tag for included tag *******************/
+
+.flight-tag {
+  position: absolute;
+  top: $s-2;
+  left: $s-2;
+  display: block;
+  width: 50%;
+  @include bp($sm){
+    top: $s0;
+    left: $s0;
+    width: 146px;
+  }
+}

@@ -1,0 +1,80 @@
+.btn {
+  position: relative;
+  display: inline-block;
+  padding: $s2 $s4;
+  min-width: 195px;
+  color: $white;
+  font-weight: 600;
+  font-size: $s-1;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  line-height: 1.33;
+  border-radius: 3px;
+    margin-right: $s-1;
+  cursor: pointer;
+  @include transition;
+  &+& {
+    margin-left: 0;
+    margin-top: $s-1;
+  }
+  @include bp($lg){
+    &+& { margin-top: 0;  }
+  }
+  &--sm { padding: $s1 $s4; font-size: $s-2; }
+  &--lg { padding: $s3 $s8; font-size: $s-1; }
+  &--orange { background-color: $orange;
+    &:hover { background-color: $orange-dark; }
+  }
+  &--outline {
+    color: $white;
+    &:before {
+      // button border within original padding
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border: 1px solid $vf-pink;
+      border-radius: inherit;
+    }
+    &:hover {
+      color: $vf-pink;
+      background-color: $white;
+
+    }
+    &-yellow {
+      &:before { border: 1px solid $n-yellow; }
+      &:hover {
+        background-color: $n-yellow;
+        color: $black;
+      }
+    }
+    &-white {
+      &:before { border: 1px solid $white; }
+      &:hover {
+        background-color: $white;
+        color: $grey-darkest;
+      }
+    }
+  }
+  &--solid {
+    background-color: $vf-pink; /* For browsers that do not support gradients */
+    background-image: linear-gradient(135deg, $vf-gr-orange, $vf-gr-pink); /* Standard syntax (must be last) */
+     color: $white;
+
+    &:hover { background-color: $vf-pink; background-image: none;}
+  }
+  &--yellow {
+    background-color: $n-yellow;
+     color: $black;
+
+    &:hover { background-color: $n-yellow; background-image: none;}
+  }
+  &--vf-blue {
+    background-color: $vf-darkblue;
+     color: $white;}
+
+
+}
