@@ -1,0 +1,138 @@
+
+
+
+- id: 1
+  title: Geishas
+  photoshow: display:block
+  videoshow: display:none
+  orientation: landscape
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+  page: overview # group for whole page
+  section: one # group for section of page
+  pages: # modal required on these pages
+    - id: overview
+
+
+
+- id: 2
+  title: Onsen Badehäuser
+  photoshow: display:block
+  orientation: landscape
+  videoshow: display:none
+  orientation: landscape
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+  page: overview # group for whole page
+  section: one # group for section of page
+  pages: # modal required on these pages
+    - id: overview
+
+
+
+- id: 3
+  title: Sumo Ringer
+  photoshow: display:block
+  videoshow: display:none
+  orientation: landscape
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+  page: overview # group for whole page
+  section: one # group for section of page
+  pages: # modal required on these pages
+    - id: overview
+
+
+
+- id: 4
+  title: ChiChibu Tama Kai Nationalpark
+  photoshow: display:block
+  orientation: landscape
+  videoshow: display:none
+  orientation: landscape
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+  page: overview # group for whole page
+  section: one # group for section of page
+  pages: # modal required on these pages
+    - id: overview
+
+
+
+- id: 5
+  title: Karaoke Bars
+  photoshow: display:block
+  orientation: landscape
+  videoshow: display:none
+  orientation: landscape
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+  page: overview # group for whole page
+  section: one # group for section of page
+  pages: # modal required on these pages
+    - id: overview
+
+
+
+- id: 6
+  title: Mount Fuji
+  photoshow: display:block
+  orientation: landscape
+  videoshow: display:none
+  orientation: landscape
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+  page: overview # group for whole page
+  section: one # group for section of page
+  pages: # modal required on these pages
+    - id: overview
+
+
+
+- id: 7
+  title: Magnetbahn
+  photoshow: display:block
+  orientation: landscape
+  videoshow: display:none
+  orientation: landscape
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+  page: overview # group for whole page
+  section: one # group for section of page
+  pages: # modal required on these pages
+    - id: overview
+
+
+
+- id: 8
+  title: Street Food
+  photoshow: display:block
+  orientation: landscape
+  videoshow: display:none
+  orientation: landscape
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+  page: overview # group for whole page
+  section: one # group for section of page
+  pages: # modal required on these pages
+    - id: overview
+
+
+
+- id: 9
+  title: Himeji Burg
+  photoshow: display:block
+  orientation: landscape
+  videoshow: display:none
+  orientation: landscape
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+  page: overview # group for whole page
+  section: one # group for section of page
+  pages: # modal required on these pages
+    - id: overview
+
+
+
+- id: 10
+  title: Historische Dörfer von Shirakawa-gō und Gokayama
+  photoshow: display:block
+  orientation: landscape
+  videoshow: display:none
+  orientation: landscape
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+  page: overview # group for whole page
+  section: one # group for section of page
+  pages: # modal required on these pages
+    - id: overview

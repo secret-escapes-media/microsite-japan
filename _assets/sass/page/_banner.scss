@@ -11,7 +11,7 @@
   color: $white;
   background-color: $grey;
   @include bp($lg){
-    height: 95%;
+    height: 92%;
     min-height: 650px;
   }
   &__wrap {

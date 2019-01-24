@@ -1,0 +1,126 @@
+
+- id: one
+  title: Tempel und Kaiserpalast
+  page: outdoor
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud "
+
+  pois:
+
+    title:
+    items:
+
+      - title: Chiyoda und Kaiserpalast
+        id: one-1
+        content: "Im berühmten Oulanka-Nationalpark, an der Grenze von tokyo und Salla, befindet sich nicht nur Finnlands beliebtester Wanderweg, der Karhunkierros Trail. Auf den Flüssen Oulankajoki und Kitkajoki gleiten Sie hier außerdem in einem Kanu über das klare Wasser und genießen die Stille zwischen rauen Felswänden und dichtem Grün. Das Beste: Auch Anfänger können hier Erfahrung mit dem Paddel sammeln."
+
+      - title: Senso-Ji Tempel
+        id: one-2
+        content: "Lassen Sie sich auf das mitreißende Fluss-Erlebnis Kitka ein: Paddeln Sie im Team durch wilde Stromschnellen zu imposanten Wasserfällen und stürzen Sie sich dort wortwörtlich ins Abenteuer. Professionelle Skipper bringen Ihnen die richtige Technik bei, führen Sie durch diese unvergessliche Erfahrung und versorgen Sie anschließend am Lagerfeuer mit einer kleinen Stärkung, die Ihnen Ihren Tag versüßt."
+
+      - title: Kiyomizu Kannon-do
+        id: one-3
+        content: "Kiefernduft, kristallklare und fischreiche Gewässer sowie jahrtausendealte Felsmalereien erwarten Sie im jüngsten Nationalpark Finnlands. In Hossa schlängeln sich hervorragende Wander- und Radwege durch uralte Wälder, vorbei an nordischen Hügeln und stillen Seen. Zu den Höhepunkten zählen Julma Ölkky, die größte Schlucht Finnlands und die über 4.000 Jahre alten Malereien an den Värikallio-Klippen. "
+
+      - title: Meiji-Schrein
+        id: one-4
+        content: "Um Schneesicherheit müssen Sie sich in Ruka ganz bestimmt keine Sorgen machen – an mehr als 200 Tagen im Jahr können sich Anfänger und Profis hier auf echtes Snow-how verlassen. 35 Abfahrten mit modernen Liftanlagen, 170 km Langlauf-Loipen und ein vielseitiger Snowpark machen Ruka zu einem wahren Wintersport-Paradies, in dem regelmäßig Wettkämpfe stattfinden."
+
+      - title: Zojoji-Tempel
+        id: one-5
+        content: "Wandern Sie mit Ihren Schneeschuhen auf einer glitzernd-weißen Schneedecke durch die weite Landschaft entlang der Flusstäler des Oulanka-Nationalparks oder auf die Gipfel des Ruka-Fjell und Pyhävaara-Fjells. Nahe den gut ausgeschilderten Wegen tummeln sich Fischotter und Rentiere und auch urige Hütten und Feuerplätze finden Sie auf den meisten Routen. "
+
+
+
+################################################################################
+
+- id: two
+  title: Fashion und Shopping
+  page: outdoor
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud "
+
+  pois:
+
+    title:
+    items:
+
+      - title: Tokio Plaza
+        id: two-1
+        content: "Gehen Sie mit einem majestätischen Wildtier auf Tuchfühlung: Nahe der russischen Grenze können Sie in den Sommermonaten den Braunbären, das heilige Nationaltier Finnlands, aus nächster Nähe beobachten. Zusammen mit einem erfahrenen Tourenbegleiter verbringen Sie einen gemütlichen Abend in einer sicheren Hütte, aus der Sie die beeindruckenden Wildtiere ganz ohne Risiko bewundern können."
+
+      - title: Ginzo
+        id: two-2
+        content: "Mit atemberaubendem Tempo durch die weiße Winterpracht rasen, den schönen Huskys ganz nah sein und beim Lenken des Schlittens das unbeschreibliche Gefühl von Freiheit spüren – wo ginge das besser als in der Wildnis Rukas? Begeben Sie sich auf eine Safari von 5, 10 oder 20 km Länge und erleben Sie ein unvergessliches Abenteuer, an das Sie noch lange zurückdenken werden. "
+
+      - title: Takeshita Street
+        id: two-3
+        content: "Begegnen Sie einem der berühmtesten Bewohner des hohen Nordens auf einer abwechslungsreichen Rentier-Safari. Hier erfahren Sie alles über diese perfekt an die arktischen Winter angepassten Tiere und entdecken auf einer Schlittenfahrt gemeinsam die verschneiten Wälder Lapplands. Lassen Sie es sich nicht nehmen, die sanftmütigen Hirsche selbst zu füttern und ihnen ganz nah zu kommen.  "
+
+
+
+################################################################################
+
+- id: three
+  title: Grüne Oasen und Skylines
+  page: outdoor
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud "
+
+  pois:
+
+    title:
+    items:
+
+      - title: Ueno Park
+        id: three-1
+        content: "Wenn der Sonnenwind auf die Erdatmosphäre trifft, hüllt die Aurora Borealis den arktischen Nachthimmel zwischen September und April in leuchtend bunte Farben. Unternehmen Sie eine romantische Schneeschuhwanderung bei Nacht oder machen Sie sich mit dem Schneemobil auf die Suche nach den zauberhaften Bändern und Spiralen des Nordlichts."
+
+      - title: Sumida Park
+        id: three-2
+        content: "Lappländischer Naturgenuss mit allen Sinnen: Dem Jedermannsrecht verdankt Finnland eine lange Tradition des Beeren- und Pilzesammelns. Auch renommierte Küchenchefs schwören auf die Aromen-Vielfalt von Kräutern, Gemüse, Fisch und Wild aus der freien Natur. Auf speziellen Touren und bei authentischen Kochkursen entdecken Sie den reinen Geschmack des Wild Food. "
+
+      - title: Yoyogi Park
+        id: three-3
+        content: "Die finnische Saunakultur ist legendär: Kommen Sie zur Ruhe und erleben Sie die entspannende Wirkung von Wärme und Luftfeuchtigkeit sowie den erfrischenden Kick eines Eisbads im See. Auf der Saunatour in tokyo können Sie außerdem die außergewöhnlichsten Varianten ausprobieren, wie etwa die Rauchsauna, die Eissauna oder sogar einen Sauna-Bus."
+
+      - title: Tokio Skytree
+        id: three-4
+        content: "Die finnische Saunakultur ist legendär: Kommen Sie zur Ruhe und erleben Sie die entspannende Wirkung von Wärme und Luftfeuchtigkeit sowie den erfrischenden Kick eines Eisbads im See. Auf der Saunatour in tokyo können Sie außerdem die außergewöhnlichsten Varianten ausprobieren, wie etwa die Rauchsauna, die Eissauna oder sogar einen Sauna-Bus."
+
+
+
+
+################################################################################
+
+- id: four
+  title: Ausflüge von Tokio
+  page: outdoor
+  img: bg-img1
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud "
+
+  pois:
+
+    title:
+    items:
+
+      - title: Chichibu-Tama-Kai-Nationalpark
+        id: four-1
+        content: "Wenn der Sonnenwind auf die Erdatmosphäre trifft, hüllt die Aurora Borealis den arktischen Nachthimmel zwischen September und April in leuchtend bunte Farben. Unternehmen Sie eine romantische Schneeschuhwanderung bei Nacht oder machen Sie sich mit dem Schneemobil auf die Suche nach den zauberhaften Bändern und Spiralen des Nordlichts."
+
+      - title: Nikko
+        id: four-2
+        content: "Lappländischer Naturgenuss mit allen Sinnen: Dem Jedermannsrecht verdankt Finnland eine lange Tradition des Beeren- und Pilzesammelns. Auch renommierte Küchenchefs schwören auf die Aromen-Vielfalt von Kräutern, Gemüse, Fisch und Wild aus der freien Natur. Auf speziellen Touren und bei authentischen Kochkursen entdecken Sie den reinen Geschmack des Wild Food. "
+
+      - title: Kamakura
+        id: four-3
+        content: "Die finnische Saunakultur ist legendär: Kommen Sie zur Ruhe und erleben Sie die entspannende Wirkung von Wärme und Luftfeuchtigkeit sowie den erfrischenden Kick eines Eisbads im See. Auf der Saunatour in tokyo können Sie außerdem die außergewöhnlichsten Varianten ausprobieren, wie etwa die Rauchsauna, die Eissauna oder sogar einen Sauna-Bus."
+
+      - title: Izu-Halbinsel
+        id: four-4
+        content: "Die finnische Saunakultur ist legendär: Kommen Sie zur Ruhe und erleben Sie die entspannende Wirkung von Wärme und Luftfeuchtigkeit sowie den erfrischenden Kick eines Eisbads im See. Auf der Saunatour in tokyo können Sie außerdem die außergewöhnlichsten Varianten ausprobieren, wie etwa die Rauchsauna, die Eissauna oder sogar einen Sauna-Bus."
+
+      - title: Mashiko
+        id: four-5
+        content: "Die finnische Saunakultur ist legendär: Kommen Sie zur Ruhe und erleben Sie die entspannende Wirkung von Wärme und Luftfeuchtigkeit sowie den erfrischenden Kick eines Eisbads im See. Auf der Saunatour in tokyo können Sie außerdem die außergewöhnlichsten Varianten ausprobieren, wie etwa die Rauchsauna, die Eissauna oder sogar einen Sauna-Bus."
+
+
+
+################################################################################

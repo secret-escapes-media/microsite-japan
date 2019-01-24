@@ -44,26 +44,14 @@
     width: 100%;
     max-width: $lg;
     @include bp($bp) {
-      width: 60%;
+      width: 50%;
       max-width: none;
     }
   }
   &__text {
-    @include bp($bp) { width: 40%; }
+    @include bp($bp) { width: 50%; }
   }
 
-  // element styles
-  &__text2,
-  &__img2 {
-    width: 100%;
-    max-width: $lg;
-    @include bp($bp) {
-      width: 40%;
-      max-width: none;
-    }
-  }
-  &__text2 {
-    @include bp($bp) { width: 60%; }
-  }
+
 
 }

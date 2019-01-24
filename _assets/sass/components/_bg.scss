@@ -5,6 +5,7 @@
   &--black { background-color: #000000; }
   &--light { background-color: $grey-lightest; }
   &--dark  { background-color: $grey-dark; }
+  &--red  { background-color: $j-red; }
   &--img   { @include background-attributes; }
   &__fixed {
     position: fixed;

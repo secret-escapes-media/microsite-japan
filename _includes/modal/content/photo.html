@@ -1,17 +1,18 @@
 <!-- Photo & Video modal - video requires youtube-id -->
 
-<div class="container container--100 container--no-padding modal-photo" style="{{item.photoshow}}">
+<div class="container container--no-padding modal-photo" style="{{item.photoshow}}">
 
-  <div class="modal-photo__img modal-photo__img--{{item.orientation}}">
-    <img src="{{site.img}}/content/{{item.page}}/photos/{{item.id}}.jpg" alt="{{item.title}}">
+  <div class="modal-photo ">
+    <img src="{{site.img}}/content/{{item.page}}/highlight{{item.id}}.jpg" alt="{{item.title}}">
   </div>
+  <div class="modal-photo__content " >
 
-  <div class="modal-photo__content text--white vpad--l" style=" {{item.show}} ">
-    <div class="accordion accordion--open" id="{{item.id}}-accordion" >
-      <h3 class="title title--xxs text--bold">{{item.title}}</h3>
+      <h3 class="title title--xs text--bold text--red text--left">{{item.id}}. {{item.title}}</h3>
       <div class="space--xs"></div>
-      <div class="text text--md text--light">Aufgenommen von André Alexander mit der Nikon {{item.photographer}}</div>
-    </div>
+      <h3 class="title title--xxs text--left">{{item.description}}</h3>
+      <div class="space--xxs"></div>
+
+
   </div>
 
 </div>

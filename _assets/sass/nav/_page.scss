@@ -1,9 +1,9 @@
 // styles for the microsite nav
 
-$page-nav-height:    56px;
+$page-nav-height:    54px;
 $page-nav-height-sm: 44px;
 $nav-width-bp:       640px;
-$nav-color:          $vf-blue;
+$nav-color:          $white;
 
 
 // global site nav height
@@ -92,14 +92,14 @@ $nav-color:          $vf-blue;
     padding-right: $s0;
     font-family: $font-core;
     font-weight: 600;
-    font-size: $s-1;
-    letter-spacing: .143em;
-    text-transform: uppercase;
-    color: $white;
+    font-size: $s0;
+    //letter-spacing: .143em;
+    //text-transform: uppercase;
+    color: $j-red;
     transition: background-color $transition-time ease;
     white-space: nowrap;
-    &.is-current      { background-color: rgba($vf-darkblue,1); }
-    .no-touch &:hover { background-color: rgba($vf-darkblue,1); }
+    &.is-current      { background-color: rgba($j-red,1); color: $white; }
+    .no-touch &:hover { background-color: rgba($j-red,1); color: $white;}
   }
 
   // js-sticky-nav style

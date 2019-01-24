@@ -136,62 +136,40 @@ $modaltransition-distance: 4em;
 
 // SPECIFIC MODIFIERS FOR VIDEO MODAL
 .modal-photo {
-  padding: $icon-size-sm 0;
-  @include bp($lg){
+  //padding: $icon-size-sm 0;
+  text-align: center;
+  max-width: $xxl;
+  /*@include bp($lg){
     padding: $icon-size 0 14em;
-  }
+  }*/
   &__img {
     position: relative;
     z-index: $z-content;
     display: flex;
     align-items: center;
     overflow-x: scroll;
+    width: 100%;
+    height: auto;
 
-    &--landscape {
-      width: 100%;
-      height: auto;
-      text-align: center;
-      img {
-        max-width: 100%;
-        max-height: 100%;
-        margin: auto;
-        @include bp(lg){}
-      }
-    }
-    &--portrait {
-      height: 100%;
-      @include bp($lg){
-        img {
-          height: 1080px;
-          max-height: 100%;
-          width: auto;
-          margin: auto;
-        }
-      }
-    }
+
   }
 
   &__content {
-    background-color: rgba($grey-darkest,0.8);
-    border-top: 2px solid $vf-blue;
+    background-color: $white;
+    border-bottom: 4px solid $j-red;
     padding: $s2 $s4;
     @include bp($lg){
-      position: fixed;
-      bottom: 0;
-      left: 4em;
-      right: 4em;
-      padding: $s3 $s5;
+      //position: fixed;
+      //bottom: 0;
+      width: 100%;
+      left: 0;
+      right: 0;
+      //padding: $s3 $s5;
     }
-    @include bp($xxl){
 
-      border-top: 0 solid $black;
-      left: 4em;
-      right: auto;
-      width: $xl;
-    }
   }
   &__content-toggle {
-    background-color: $vf-blue;
+    background-color: $j-red;
     padding: 1em;
     position: absolute;
     left: 0;

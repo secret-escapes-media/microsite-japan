@@ -38,7 +38,7 @@ $core-nav-padding-sm: 1rem;
 // ---------- NAV FOR CORE SE SITE ----------
 
 // the breakpoint for the core nav list to appear as the mobile nav
-$nav-list-bp: 870px;
+$nav-list-bp: 880px;
 // the breakpoint for the logo to appear at the bottom of the mobile nav
 $logo-bp: 600px;
 
@@ -80,10 +80,10 @@ $logo-bp: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 40%;
     @include bp($logo-bp) { flex-grow: 3; }
     @include bp($nav-list-bp) {
-      width: 85%;
+      width: 40%;
       justify-content: flex-start;
     }
   }
@@ -98,7 +98,7 @@ $logo-bp: 600px;
       visibility: visible;
     }
     @include bp($nav-list-bp) {
-      width: 20%;
+      width: 30%;
     }
   }
   &__list {
@@ -118,7 +118,7 @@ $logo-bp: 600px;
       @include transition;
       &:hover,
       &.is-current {
-        color: $vf-blue;
+        color: $j-red;
       }
     }
   }

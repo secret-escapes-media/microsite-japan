@@ -36,11 +36,11 @@
       left: 0;
       right: 0;
       bottom: 0;
-      border: 1px solid $vf-pink;
+      border: 1px solid $j-red;
       border-radius: inherit;
     }
     &:hover {
-      color: $vf-pink;
+      color: $j-red;
       background-color: $white;
 
     }
@@ -60,11 +60,11 @@
     }
   }
   &--solid {
-    background-color: $vf-pink; /* For browsers that do not support gradients */
+    background-color: $j-red; /* For browsers that do not support gradients */
     background-image: linear-gradient(135deg, $vf-gr-orange, $vf-gr-pink); /* Standard syntax (must be last) */
      color: $white;
 
-    &:hover { background-color: $vf-pink; background-image: none;}
+    &:hover { background-color: $j-red; background-image: none;}
   }
   &--yellow {
     background-color: $n-yellow;

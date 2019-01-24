@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
   @include bp($bp) {
     flex-direction: row;
     &--swap { flex-direction: row-reverse; }
@@ -16,18 +17,21 @@
   &__text,
   &__img {
     width: 100%;
-    @include bp($bp) { width: 50%; }
+      @include bp($bp) { width: 50%; }
   }
   &__text {
-    max-width: $lg;
+    max-width: $xl;
+    background: transparent;
     margin-left: auto;
     margin-right: auto;
     padding-top: $s4;
     padding-bottom: $s8;
     @include page-padding;
     @include bp($bp) {
+
       padding-top: $s12;
       padding-bottom: $s12;
+      margin-right: $s3;
     }
   }
   &__img {

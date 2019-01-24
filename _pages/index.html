@@ -4,14 +4,14 @@ id: overview
 nav: true
 nav-order: 1
 nav-title: Überblick
-title: Finnland
+title: Japan
 
 banner:
-  title-sup: Wilde Natur & urbanes Design
-  title: Finnland
+  title-sup:
+  title: Japan
 
-intro: >
-  <p class="text--lg text--light bv-mob-left">Wie fotogen ist Finnland? Das wollten wir zusammen mit NIKON Fotograf André herausfinden und haben ihn mit der Unterstützung von Visit Finland im September 2018 nach Finnland geschickt. Seine Reise führte ihn von Kuusamo, südlich von Lappland, über Helsinki nach Espoo. Immer mit dabei: die Systemkamera&nbsp;Nikon&nbsp;Z7. </p>
+
+intro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud "
 
 
 
@@ -19,37 +19,34 @@ intro: >
 
 
 
-<div class="bg--grey-darker bv-parallax" style="background-image: url({{site.img}}/content/overview/intro-bg.jpg);">
-  <div class="container container--xxl vpad--xxl text--center">
-    {{page.intro}}
-  </div>
-</div>
+{% include page/intro.html %}
 
 
 <!---- Regions ----->
 
 
+
 <div class="container vpad--xxl">
+  <h3 class="title title--lg text--center text--bold bv-divider">Unsere Highlights</h3>
+  <div class="space--xl"></div>
+  <div class="row row--xl-4-4-4">
+    {% for section in site.data[page.id] %}
+       <div class="col {% if section.id <= 4 %} col--6{% endif %}">
 
-  {% assign destinations = site.html_pages | where: 'layout','journey' | sort:'nav-order' %}
-  {% for destination in destinations %}
+      <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/highlight{{section.id}}.jpg');">
+         <a href="javascript:void(0);" data-modal-item="{{section.id}}" data-modal-group="section" class="js-open-modal bg-img__link"></a>
+
+          <div class="bg-img__content">
+            <div class="title title--lg text--italic text--light">{{section.id}}.</div>
+            <div class="space--xxs">   </div>
+            <div class="title title--md">{{section.title}}</div>
+          </div>
+          <div class="bg-img__bg-overlay text--white text text--sm"></div>
+        </div>
+
+      </div>
 
 
-  <div class="bob  {% cycle '', 'bob--swap' %} ">
-    <div class="bob__img">
-      <a href="{{site.baseurl}}{{destination.url}}" id="tracking-nikon-{{feature.id}}-image" class="bg-img bg-img--4-3" style="background-image:url({{site.img}}/banner/{{destination.id}}.jpg);" ></a>
-    </div>
-    <div class="bob__text">
-      <h3 class="title title--md bv-divider text--bold">{{destination.title}}</h3>
-      <p class="text--md">{{destination.intro.content}}</p>
-      <div class="space--lg"></div>
-      <a href="{{site.baseurl}}{{destination.url}}"  class="btn btn--solid" >Jetzt entdecken</a>
-    </div>
+    {% endfor %}
   </div>
-
-  {% endfor %}
-
 </div>
-
-
-{% include page/promo-competition.html %}
