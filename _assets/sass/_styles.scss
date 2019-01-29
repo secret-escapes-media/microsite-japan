@@ -82,7 +82,7 @@
 
 
 
-.bv-link-nikon{ color:$n-yellow; }
+.bv-link-nikon{ color:$af-blue; }
 
 .bv-mob-left {
    text-align: center;
@@ -176,10 +176,7 @@
   }
 }
 
-.bv-brand-gradient {
-  background-color: $j-red; /* For browsers that do not support gradients */
-  background-image: linear-gradient(-45deg, $vf-gr-orange, $vf-gr-pink); /* Standard syntax (must be last) */
-}
+
 
 
 /* ==========================================================================

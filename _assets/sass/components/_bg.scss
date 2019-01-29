@@ -6,6 +6,7 @@
   &--light { background-color: $grey-lightest; }
   &--dark  { background-color: $grey-dark; }
   &--red  { background-color: $j-red; }
+  &--blue  { background-color: $af-blue; }
   &--img   { @include background-attributes; }
   &__fixed {
     position: fixed;

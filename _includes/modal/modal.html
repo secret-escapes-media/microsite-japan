@@ -1,11 +1,14 @@
 
-{% assign modal-items = site.data.overview | modal-items = site.data.tokyo | concat: site.data.outdoor | concat: site.data.modal.videos  %}
+{% assign modal-items = site.data.overview  %}
 
 <div class="js-modal modal is-closed">
   <div class="js-close-modal modal__close"></div>
 
-  <div class="js-modal-nav modal__nav modal__nav--next" data-nav-direction="next"></div>
-  <div class="js-modal-nav modal__nav modal__nav--previous" data-nav-direction="prev"></div>
+  <div class="js-modal-nav modal__nav modal__nav--previous" data-nav-direction="prev" style=""></div>
+
+  <div class="js-modal-nav modal__nav modal__nav--next" data-nav-direction="next" style=""></div>
+
+
 
   <div class="modal__container">
 

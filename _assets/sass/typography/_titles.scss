@@ -90,11 +90,11 @@
   font-family: $font-title-01;
   font-weight: 500;
   line-height: 1;
-  hyphens: auto;
+  //hyphens: auto;
   text-transform: uppercase;
   @include font-smoothing;
 
-  font-size: $s10;
+  font-size: $s8;
   letter-spacing: .1rem;
   @include bp($md){
     letter-spacing: .1rem;

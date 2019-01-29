@@ -1,8 +1,11 @@
 
 
 
+
+
 - id: 1
   title: Geishas
+  hightlight: photo
   photoshow: display:block
   videoshow: display:none
   orientation: landscape
@@ -16,6 +19,7 @@
 
 - id: 2
   title: Onsen Badehäuser
+  hightlight: photo
   photoshow: display:block
   orientation: landscape
   videoshow: display:none
@@ -30,6 +34,7 @@
 
 - id: 3
   title: Sumo Ringer
+  hightlight: photo
   photoshow: display:block
   videoshow: display:none
   orientation: landscape
@@ -43,6 +48,7 @@
 
 - id: 4
   title: ChiChibu Tama Kai Nationalpark
+  hightlight: photo
   photoshow: display:block
   orientation: landscape
   videoshow: display:none
@@ -57,6 +63,7 @@
 
 - id: 5
   title: Karaoke Bars
+  hightlight: photo
   photoshow: display:block
   orientation: landscape
   videoshow: display:none
@@ -71,6 +78,7 @@
 
 - id: 6
   title: Mount Fuji
+  hightlight: photo
   photoshow: display:block
   orientation: landscape
   videoshow: display:none
@@ -85,6 +93,7 @@
 
 - id: 7
   title: Magnetbahn
+  hightlight: photo
   photoshow: display:block
   orientation: landscape
   videoshow: display:none
@@ -99,6 +108,7 @@
 
 - id: 8
   title: Street Food
+  hightlight: photo
   photoshow: display:block
   orientation: landscape
   videoshow: display:none
@@ -113,6 +123,7 @@
 
 - id: 9
   title: Himeji Burg
+  hightlight: photo
   photoshow: display:block
   orientation: landscape
   videoshow: display:none
@@ -127,8 +138,8 @@
 
 - id: 10
   title: Historische Dörfer von Shirakawa-gō und Gokayama
+  hightlight: photo
   photoshow: display:block
-  orientation: landscape
   videoshow: display:none
   orientation: landscape
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
@@ -136,3 +147,19 @@
   section: one # group for section of page
   pages: # modal required on these pages
     - id: overview
+
+
+
+- id: 0
+  title: Video
+  photoshow: display:none
+  videoshow: display:block
+  youtube-id: gqYzEv_AqYM
+  show: display:none
+  orientation: landscape
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
+  page: overview # group for whole page
+  section: one # group for section of page
+  pages: # modal required on these pages
+    - id: overview
+      youtube-id: gqYzEv_AqYM

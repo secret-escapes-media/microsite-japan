@@ -5,7 +5,7 @@
   min-width: 195px;
   color: $white;
   font-weight: 600;
-  font-size: $s-1;
+  font-size: $s3/2;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: .15em;
@@ -23,11 +23,18 @@
   }
   &--sm { padding: $s1 $s4; font-size: $s-2; }
   &--lg { padding: $s3 $s8; font-size: $s-1; }
+  &--white { background-color: $white; color: $af-blue;
+    &:hover { background-color: $white; color: $af-blue; }
+  }
+  &--blue { background-color: $af-blue;
+    &:hover { background-color: $af-blue; }
+  }
   &--orange { background-color: $orange;
     &:hover { background-color: $orange-dark; }
   }
   &--outline {
     color: $white;
+    border: 1px solid $white;
     &:before {
       // button border within original padding
       content: '';
@@ -36,45 +43,24 @@
       left: 0;
       right: 0;
       bottom: 0;
-      border: 1px solid $j-red;
       border-radius: inherit;
     }
     &:hover {
       color: $j-red;
+      border: 1px solid $white;
       background-color: $white;
 
     }
-    &-yellow {
-      &:before { border: 1px solid $n-yellow; }
-      &:hover {
-        background-color: $n-yellow;
-        color: $black;
-      }
-    }
-    &-white {
-      &:before { border: 1px solid $white; }
-      &:hover {
-        background-color: $white;
-        color: $grey-darkest;
-      }
-    }
+
+
   }
   &--solid {
     background-color: $j-red; /* For browsers that do not support gradients */
-    background-image: linear-gradient(135deg, $vf-gr-orange, $vf-gr-pink); /* Standard syntax (must be last) */
      color: $white;
 
     &:hover { background-color: $j-red; background-image: none;}
   }
-  &--yellow {
-    background-color: $n-yellow;
-     color: $black;
 
-    &:hover { background-color: $n-yellow; background-image: none;}
-  }
-  &--vf-blue {
-    background-color: $vf-darkblue;
-     color: $white;}
 
 
 }
