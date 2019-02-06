@@ -15,74 +15,24 @@ layout: default
 <!-- JOURNEY -->
 
 
-
-
-
 {% for section in site.data[page.id] %}
 
 
 
 <div class="wp" id="{{section.id}}"></div>
 
-<div class="" style="background-image:url({{site.img}}/content/{{page.id}}/{{section.id}}.jpg); background-repeat:no-repeat; background-size:cover; background-position:top center;">
-
-
+<div class="bv-parallax" style="background-image:url({{site.img}}/content/{{page.id}}/{{section.id}}.jpg); background-repeat:no-repeat; background-size:cover; background-position:top center;">
   <div class="container vpad--xxl ">
-
       <div class="row row--justify row--xl-6-6 row--no-gutters ">
-
           <div class="col bg--white boxpad--lg bv-section-text">
-
             <h3 class="title title--md text--bold bv-divider">{{section.title}}</h3>
             <p>{{section.description}}</p>
-
           </div>
-
       </div>
     </div>
-
-  <!--
-  <div class="container vpad--xxl text--center">
-      <h3 class="title title--xl text--bold bv-divider">{{section.title}}</h3>
-    {{section.description}}
-  </div>-->
 </div>
 
 
-<!--
-<div id="{{section.id}}" class="harvey harvey--swap" style="background-image:url({{site.img}}/content/{{page.id}}/{{section.id}}.jpg); background-position: center 20%; background-repeat: no-repeat">
-  <div class="harvey__img" >
-    <a href="{{site.baseurl}}{{page.url}}" class="harvey__link"></a>
-  </div>
-  <div class="harvey__text text text--xl">
-
-    <div class="bg--white boxpad--xl bv-section-text">
-      <h2 class="title title--md text--bold bv-divider ">{{section.title}}</h2>
-      <div class="">{{section.description}}</div>
-    </div>
-
-
-  </div>
-</div>
-
-
-<div  id="{{section.id}}"></div>
-
-<div class="bv-parallax" style="background-image:url({{site.img}}/content/{{page.id}}/{{section.id}}.jpg); background-repeat:no-repeat; background-size:cover; background-position:center;">
-
-
-  <div class="container vpad--xxxl ">
-    <div class="bob ">
-        <div class="bob__text bg--white boxpad--lg bv-section-text">
-          <h3 class="title title--md text--bold bv-divider ">{{section.title}}</h3>
-          <div class="space--md"></div>
-          <div class="  ">{{section.description}} </div>
-
-        </div>
-    </div>
-  </div>
-</div>
--->
 
 <div class="container vpad--xs ">
 
@@ -91,7 +41,9 @@ layout: default
 
     {% for poi in section.pois.items %}
         <div class="col">
-          <div class="bg-img bg--white bg-img--4-3" style="background-image:url({{site.img}}/content/{{page.id}}/photos/{{poi.id}}.jpg);"></div>
+          <div class="bg-img bg--white bg-img--4-3" style="background-image:url({{site.img}}/content/{{page.id}}/photos/{{poi.id}}.jpg);">
+            <div class="text text--sm text--white text--light bv-copyright" >{{poi.caption}}</div>
+          </div>
           <div class="space--md"></div>
           <h5 class="title title--xs text--bold">{{poi.title}}</h5>
           <p>{{poi.content}}</p>
@@ -103,5 +55,5 @@ layout: default
     </div>
   </div>
 
-    <div class="space--lg "></div>
+<div class="space--lg "></div>
 {% endfor %}

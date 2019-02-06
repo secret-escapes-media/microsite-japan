@@ -38,7 +38,7 @@ $core-nav-padding-sm: 1rem;
 // ---------- NAV FOR CORE SE SITE ----------
 
 // the breakpoint for the core nav list to appear as the mobile nav
-$nav-list-bp: 880px;
+$nav-list-bp: 940px;
 // the breakpoint for the logo to appear at the bottom of the mobile nav
 $logo-bp: 600px;
 
@@ -47,9 +47,9 @@ $logo-bp: 600px;
   padding-left: $core-nav-padding-sm;
   padding-right: $core-nav-padding-sm;
   font-family: $font-core;
-  color: $grey-lighter;
+  color: $black;
   text-align: center;
-  background-color: rgba($black,.9);
+  background-color: rgba($white,1);
 
   // spacing for double logos in core nav
   .logo + .logo { margin-left: $s0; }
@@ -118,7 +118,7 @@ $logo-bp: 600px;
       @include transition;
       &:hover,
       &.is-current {
-        color: $j-red;
+        color: $orange;
       }
     }
   }
@@ -138,9 +138,9 @@ $mobile-nav-width: 75%;
   justify-content: space-between;
   width: $mobile-nav-width;
   font-family: $font-core;
-  color: $grey-lighter;
+  color: $grey-darker;
   overflow-y: auto;
-  background-color: rgba($grey-darker,.9);
+  background-color: rgba($white,.9);
   @include transition;
 
   // spacing for logos in mobile core nav
@@ -180,13 +180,13 @@ $mobile-nav-width: 75%;
     min-height: ($core-nav-height + 30);
     padding: $s0;
     margin-top: $s2;
-    background: rgba($grey-darker,.85);
+    //background: rgba($grey-darker,.85);
     @include bp($logo-bp){
       display: none;
     }
   }
   &__list-link {
-    & + & { border-top: 1px solid rgba($black,.33); }
+    & + & { border-top: 1px solid rgba($black,.1); }
     @include transition;
     display: block;
     padding-top: $s0;

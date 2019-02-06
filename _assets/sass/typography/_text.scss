@@ -25,6 +25,7 @@
   &--wide-kern    { letter-spacing: .15em; }
   &--wide-kern-lg { letter-spacing: .3em; }
   &--upper        { text-transform: uppercase; }
+  &--underline    { text-decoration: underline; }
 
   // colours
   &--white { color: $grey-lightest; }

@@ -14,6 +14,7 @@ $modaltransition-distance: 4em;
 // disable scroll and blur background when modal is active
 .disable-scroll {
   overflow: hidden;
+  
   & >:not(.modal) {
     -webkit-filter: blur(10px);
     -moz-filter: blur(10px);

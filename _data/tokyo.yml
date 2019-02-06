@@ -11,7 +11,8 @@
 
       - title: Chiyoda und Kaiserpalast
         id: one-1
-        content: "Umrahmt von den schönsten Gärten Tokyos liegt der Kaiserpalast. Herrscher und Namensgeber Edo Shigenaga legte bereits im 12. Jahrhundert den Grundstein und errichtete an der Stelle das Fort Edo. Nur 2 Tage im Jahr öffnet er seine Pforte für die Öffentlichkeit. Die Japaner verehren ihren Kaiser, doch ein strenges Hofprotokoll verbietet einen direkten Kontakt zum Volk."
+        caption: 	©SHIZUOKA Convention & Visitors Bureau/© JNTO
+        content: "Umrahmt von den schönsten Gärten Tokios liegt der Kaiserpalast. Zuvor der Sitz der Tokugawa-Shogune und nach der Meiji-Restauration 1868 Sitz des Kaisers, so wurde Tokio zur Hauptstadt. Nur zwei Tage im Jahr öffnet er seine Pforte für die Öffentlichkeit. Die Japaner verehren ihren Kaiser, doch ein strenges Hofprotokoll verbietet einen direkten Kontakt zum Volk."
 
       - title: Senso-Ji Tempel
         id: one-2
@@ -19,22 +20,25 @@
 
       - title: Kiyomizu Kannon-do
         id: one-3
+        caption: © JNTO
         content: "Inmitten des Ueno Parks liegt die buddhistische Tempelanlage Kiyomizu Kannon-do. Mit tiefroter Zinnoberfassade, ohne Nägel oder Schrauben errichtet, sollten Sie sich den einzigartig gewachsenen Kiefernzweig ansehen – die sogenannte Mondkiefer. Seit der Edo-Zeit gewachsen und in den Holzschnitten - Einhundert Ansichten von Edo - zu sehen."
 
       - title: Meiji-Schrein
         id: one-4
-        content: "Dieser besondere Schrein wurde zu Ehren eines ehemaligen Kanzlers im Jahr 1920 errichtet. Das Areal des nationalen Heiligtums umfasst einen großen Park aus 120.000 Bäumen, die von Menschen aus allen Teilen Japans gespendet wurden. Mit einer Sportanlage und einer Gemäldegalerie lädt die grüne Oase Einheimische und Touristen zum Flanieren und Entdecken ein."
+        caption: © JNTO
+        content: "Dieser besondere Schrein wurde zu Ehren des Kaisers Meiji und seiner Gemahlin im Jahr 1920 errichtet. Das Areal des nationalen Heiligtums umfasst einen großen Park aus 120.000 Bäumen, die von Menschen aus allen Teilen Japans gespendet wurden. Mit einer Sportanlage und einer Gemäldegalerie lädt die grüne Oase Einheimische und Touristen zum Flanieren und Entdecken ein."
 
       - title: Zojoji-Tempel
         id: one-5
-        content: "Mit dem Tokio Tower im Hintergrund ergibt sich ein spannender Kontrast zu der Tempelanlage des Zōjō-ji Tempel mit seinen vielen Gräbern und Statuen. Er ist das älteste, noch erhaltene Gebäude aus der Gründerzeit. Zweimal täglich hören Sie die 'Daibonshon'-Glocke: Mit ihrem Klang begleitet sie die Verstorbenen in die Unterwelt."
+        content: "Mit dem Tokio Tower im Hintergrund ergibt sich ein spannender Kontrast zu der Tempelanlage des Zōjō-ji Tempel mit seinen vielen Gräbern und Statuen. Es ist das älteste, noch erhaltene Gebäude aus der Gründerzeit. Zweimal täglich hören Sie die Daibonshon-Glocke: Mit ihrem Klang begleitet sie die Verstorbenen in die Unterwelt."
 
 
 
 ################################################################################
 
+
 - id: two
-  title: Fashion und Shopping
+  title: Mode und Shopping
   page: tokyo
   description: "Selbst Modemuffel kommen hier ins Staunen: Ausgefallene Kreationen und farbenfrohe Looks treffen auf traditionelle Kimono-Garderobe. Nirgendwo sonst können sich die Menschen so persönlich mit Ihrer Kleidung präsentieren. Tokio ist die einfallsreichste und außergewöhnlichste Modemetropole der Welt."
 
@@ -43,9 +47,10 @@
     title:
     items:
 
-    
+
       - title: Ginza
         id: two-2
+        caption: © JNTO
         content: "Die elegante Einkaufsmeile in dem Stadtbezirk Ginza präsentiert Kunst und Kultur zugleich. Neben luxuriösen Boutiquen und Shops, befindet sich hier das Teikoku Gekijyou (kaiserliche Theater) und das Kabukiza (Japanische Theater) sowie zahlreiche Kunstgalerien und erstklassige Restaurants."
 
       - title: Takeshita Dori Street
@@ -56,10 +61,11 @@
 
 ################################################################################
 
+
 - id: three
   title: Parks und Architektur
   page: tokyo
-  description: "Zwischen Tokios Skyline und den Wahrzeichen der Mega City logieren die Ruheoasen, gefüllt mit historischen Heiligtümern und Tempel, zwischen moderner Architektur und umrahmt mit überfüllten Straßentrubel. Keine Metropole der Welt bietet Ihnen so viele, große und außergewöhnliche Parks inmitten der Stadt."
+  description: "Zwischen Tokios Skyline und den Wahrzeichen der Mega-City finden Sie Ruheoasen gefüllt mit historischen Heiligtümern und Tempeln. Gehen Sie auf Entdeckungstour, es lohnt sich diese Parks zu durchstreifen und ab und an dem Straßentrubel zu entfliehen."
 
   pois:
 
@@ -76,7 +82,7 @@
 
       - title: Yoyogi Park
         id: three-3
-        content: "Hier werden Sie sonntags zum Talent-Scout: zahlreiche Elvis-Reinkarnationen und Tänzer unterschiedlicher Musikrichtungen bieten hier improvisierte Shows zur Freude der Besucher. Wer es etwas ruhiger mag, leiht sich ein Fahrrad und erkundet den Park und seine Kulturschätze fernab des Trubels."
+        content: "Hier werden Sie sonntags zum Talent-Scout: Zahlreiche Elvis-Reinkarnationen und Tänzer unterschiedlicher Musikrichtungen bieten hier improvisierte Shows zur Freude der Besucher. Wer es etwas ruhiger mag, leiht sich ein Fahrrad und erkundet den Park und seine Kulturschätze fernab des Trubels."
 
       - title: Tokio Skytree
         id: three-4
@@ -86,6 +92,9 @@
 
 
 ################################################################################
+
+
+
 - id: four
   title: Tagesausflüge rund um Tokio
   page: tokyo
@@ -98,11 +107,11 @@
 
       - title: Chichibu-Tama-Kai-Nationalpark
         id: four-1
-        content: "Der Chichibu Tama Kai-Nationalpark mit seinem Onsen Thermalbad ist ein beliebtes Tagesausflugsziel. Das Seoto-no-Yu Spa, am Fluss in der Akigawa-Schlucht, ist in üppige Natur eingebettet, lädt zum Wandern sowie Entspannen ein. Für kulinarische Erlebnisse bietet das Restaurant im Park leckere Kaiseki-Menüs an"
+        content: "Der Chichibu Tama Kai-Nationalpark mit seinem Onsen-Thermalbad ist ein beliebtes Tagesausflugsziel. Das Seoto-no-Yu Spa, am Fluss in der Akigawa-Schlucht, ist in üppige Natur eingebettet, lädt zum Wandern sowie Entspannen ein. Tipp: Für kulinarische Erlebnisse bietet das Restaurant im Park leckere Kaiseki-Menüs an."
 
       - title: Nikko
         id: four-2
-        content: "Unbedingt sehenswert ist die buddhistische Tempelanlage in Nikko. In malerischer Natur, erkunden Sie den Tempel Rinnô-ji mit seinem Saal der 'drei Buddhas', das berühmte Mausoleum. Einmal im Jahr findet hier das größte Samuarai Festival mit ritterlichem Schauspiel und Zeremonien statt."
+        content: "Unbedingt sehenswert ist die buddhistische Tempelanlage in Nikko, der kleinen Stadt in den Bergen nördlich von Tokio. Erkunden Sie den beeindruckenden Tempel Rinnô-ji – umgeben von malerischer Natur  – mit seinem Saal der drei Buddhas. Einmal im Jahr findet hier übrigens das größte Samurai-Festival mit ritterlichem Schauspiel und Zeremonien statt."
 
       - title: Kamakura
         id: four-3
@@ -110,11 +119,12 @@
 
       - title: Izu-Halbinsel
         id: four-4
-        content: "Das Paradies für Sporttaucher und Surfer liegt nordöstlich von Tokio und ist Teil des Fuji-Hakone-Izu-Nationalparks. Neben dem schönsten Strand Japans wurden die Tauchspots zum 'Unesco Global Geopark' anerkannt. Wer gerne asiatische Köstlichkeiten ausprobiert, sollte sich eine der Wasabi-Farmen ansehen."
+        content: "Das Paradies für Sporttaucher und Surfer liegt nordöstlich von Tokio und ist Teil des Fuji-Hakone-Izu-Nationalparks. Hier entdecken Sie den schönsten Strand Japans und die Tauchspots, die zum Unesco Global Geopark benannt wurden. Wer gerne asiatische Köstlichkeiten ausprobiert, sollte sich eine der Wasabi-Farmen ansehen."
 
       - title: Mashiko
         id: four-5
-        content: "Zu den verborgenen Schätzen Japans zählt vor allem das traditionelle Kunsthandwerk. In Mashiko, eines der größten Zentren für Töpferkunst, wird in über 300 Öfen Keramik gebrannt. Die Manufakturen zeigen eindrucksvoll den Produktionsprozess und das Mashiko Sankokan Museum verzaubert mit seiner Ausstellung."
+        caption: © JNTO
+        content: "Zu den verborgenen Schätzen Japans zählt vor allem das traditionelle Kunsthandwerk. In Mashiko, einem der größten Zentren für Töpferkunst, wird in über 300 Öfen Keramik gebrannt. Die Manufakturen zeigen eindrucksvoll den Produktionsprozess und das Mashiko Sankokan Museum verzaubert mit seiner Ausstellung."
 
 
 

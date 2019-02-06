@@ -2,7 +2,7 @@
 
 $site-nav-height:    56px;
 $site-nav-height-sm: 44px;
-$nav-width-bp:       750px;
+$nav-width-bp:       940px;
 $nav-color:          $white;
 
 
@@ -96,7 +96,7 @@ $nav-color:          $white;
     color: $white;
     transition: background-color $transition-time ease;
     white-space: nowrap;
-    &.is-current      { background-color: rgba($nav-color,0); }
+    &.is-current      { background-color: rgba($black,1); color: $white; }
     .no-touch &:hover { background-color: rgba($nav-color,1); color: $grey-dark;}
   }
 

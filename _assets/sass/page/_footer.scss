@@ -6,9 +6,9 @@
     @include page-padding;
     padding-top: $s8;
     padding-bottom: $s8;
-    color: $grey-lighter;
+    color: $grey-dark;
     text-align: center;
-    background-color: $grey-darkest;
+    background-color: $grey-lightest;
   }
 
   // spacing for multiple logos in site footer

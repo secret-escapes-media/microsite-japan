@@ -4,9 +4,6 @@
 <div class="js-modal modal is-closed">
   <div class="js-close-modal modal__close"></div>
 
-  <div class="js-modal-nav modal__nav modal__nav--previous" data-nav-direction="prev" style=""></div>
-
-  <div class="js-modal-nav modal__nav modal__nav--next" data-nav-direction="next" style=""></div>
 
 
 
@@ -26,8 +23,6 @@
               <div class="modal__content">
                 {% if item.section %}
                   {% include modal/content/photo.html %}
-                {% elsif item.job %}
-                  {% include modal/content/profile.html %}
                 {% elsif item.youtube-id %}
                   {% include modal/content/video.html %}
                 {% else %}

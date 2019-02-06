@@ -38,7 +38,7 @@ $group-nav-color:  $grey-darkest;
     text-transform: uppercase;
     letter-spacing: .2em;
     color: $white;
-    background-color: rgba($group-nav-color,0.5);
+    background-color: rgba($group-nav-color,0.8);
     @include transition;
     &.is-current      { background-color: rgba($group-nav-color,0.25); }
     .no-touch &:hover { background-color: rgba($group-nav-color,0.4); }

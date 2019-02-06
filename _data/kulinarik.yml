@@ -23,7 +23,7 @@
 
       - title: Sushi
         id: one-4
-        content: "Mehr als nur roher Fisch: Sushi. Die kleinen Häppchen sind wahre Geschmachsfeuerwerke und werden nach festen Regeln verspeist. Man beginnt mit der hellsten Farbe und endet mit der fettreichsten Füllung. Dazwischen werden frische Ingwer Stückchen gegessen, um sich immer wieder auf den neuen Geschmack vorzubereiten."
+        content: "Mehr als nur roher Fisch: Sushi. Die kleinen Häppchen sind wahre Geschmacksfeuerwerke und werden nach festen Regeln verspeist. Man beginnt mit der hellsten Farbe und endet mit der fettreichsten Füllung. Dazwischen werden frische Ingwer Stückchen gegessen, um sich immer wieder auf den neuen Geschmack vorzubereiten."
 
       - title: Meeresfrüchte & Algen
         id: one-5
@@ -49,6 +49,7 @@
 
       - title: Geisha Kultur in Kyoto
         id: two-1
+        caption: © JNTO
         content: "Früh übt sich. Die harte und strenge Ausbildung zu einer Geisha beginnt schon im Kindesalter. Die Damen der schönen Künste erleben eine regelrechte Renaissance und bieten Unterhaltung auf hohem Niveau. Die Blumen-Damen mit dem Kimono und dem professionellen zarten Make-up sind vor allem in Kyoto anzutreffen."
 
       - title: Tempel und Religion
@@ -57,12 +58,14 @@
 
       - title: Sumo
         id: two-3
+        caption: © JNTO
         content: "Der traditionelle Ringsport mit den schlichten Regeln ist ein Muss, den man live gesehen haben sollte. Die Sumotori oder Rikishi - wie die Ringer genannt werden, müssen den Gegner dabei über die Linie des äußeren Kreises drücken. Die beliebten Wettkämpfe können 6-mal im Jahr, vor allem in Osaka und Tokio, erlebt werden."
 
       - title: Badekultur
         id: two-4
-        content: "Auch die Badekultur folgt bestimmten Regeln, so wird textilfrei und nach Geschlechtern getrennt gebadet. Zudem sind in den meisten Badehäusern Tattoos und manchmal auch Pircings streng verboten. Es hilft, sich vor einem Besuch über die jeweiligen Regeln der Häuser zu informieren. Das Badehandtuch wird übrigens am Beckenrand abgelegt oder auf dem Kopf getragen und Badeschuhe sind in vielen Badehäusern Pflicht."
+        content: "Auch die Badekultur folgt bestimmten Regeln, so wird textilfrei und nach Geschlechtern getrennt gebadet. Zudem sind in den meisten Badehäusern Tattoos und manchmal auch Piercings streng verboten. Es hilft, sich vor einem Besuch über die jeweiligen Regeln der Häuser zu informieren. Das Badehandtuch wird übrigens am Beckenrand abgelegt oder auf dem Kopf getragen und Badeschuhe sind in vielen Badehäusern Pflicht."
 
       - title: "Video- und Arcadespiele"
         id: two-5
-        content: "Vor allem die Jugend strömt in Automaten-Spielhallen, die es überall gibt. Hier können auch Sie sich an Autorennen, virtuellen Karate-Kämpfen oder einfach einem Geschicklichkeitsspiel versuchen.  Und bei der Gelegenheit: Schauen Sie doch zu, mit was für einem Tempo die Japaner diese Spiele absolvieren"
+        caption: © JNTO
+        content: "Vor allem die Jugend strömt in Automaten-Spielhallen, die es überall gibt. Hier können auch Sie sich an Autorennen, virtuellen Karate-Kämpfen oder einfach einem Geschicklichkeitsspiel versuchen.  Und bei der Gelegenheit: Schauen Sie doch zu, mit was für einem Tempo die Japaner diese Spiele absolvieren."
