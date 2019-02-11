@@ -1,68 +1,22 @@
 
 
-- title: Winterliche Blockhüttenromantik in Finnland
-  id: hawkhill-nature
-  location: Hawkhill Nature, Nuuksio-Nationalpark, Tervalampi, Finnland
+- title: Bergidylle im Nordwesten Japans
+  id: Sheraton-Hokkaido
+  location: Sheraton Hokkaido Kiroro Resort, Akaigawa, Hokkaido, Japan
   description:  Exklusiver Hüttenzauber am Waldsee im Nationalpark inkl. Fußbad & Endreinigung
-  price: 61
-  price-description: pro Person - basierend auf 4 Personen
-  saved: 21
-  link: http://bit.ly/2AMkZQH
-
-- title: Schneeweiße Abenteuer im hohen Norden Finnlands
-  id: levi-hotel
-  location: Levi Hotel Spa, Levi, Finnland
-  description: "Inkl. Flügen, Halbpension, Schneeschuhwanderung, Motorschlittensafari zur Rentierfarm & mehr "
-  price: 749
-  price-description: pro Person für 3 Nächte
-  saved: 25
-  link: http://bit.ly/2JF0g3R
-  flight-tag: true
-
-
-- title: "Winterauszeit in Finnlands Naturpracht"
-  id: petays-resort
-  location: Petäys Resort,Tyrväntö, Finnland
-  description: "Wohlfühlen & den Alltag vergessen – inkl. Frühstück oder Halbpension & Privatsauna  "
-  price: 55
+  price: 133
   price-description: pro Person - basierend auf 2 Personen
-  saved: 39
-  link: http://bit.ly/2zr5P15
+  saved: #
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/88401/89e4fe9c_fd04_4510_a332_8e98a6e47089.jpg
+  link: http://bit.ly/2RWh4WR
 
-- title: "Ski-Eldorado im Norden Finnlands"
-  id: arctic-zone
-  location: Hotel Arctic Zone, Ruka-tokyo, Lappland, Finnland
-  description: "Wintersport in der weite Lapplands - inkl. Frühstück"
-  price: 25
-  price-description: ppro Person - basierend auf 4 Personen
-  saved: 20
-  link: http://bit.ly/2PlYISu
-
-- title: "Mökki – Ferienhausurlaub auf finnische Art"
-  id: moekki
-  location: "Eerikkila Sport & Outdoor Resort, Tämmela, Kanta-Häme, Finnland"
-  description: "Sport und Erholung in der Wald- und Seenlandschaft Südfinnlands – inkl. Frühstück  "
-  price: 31
-  price-description: pro Person - basierend auf 9 Personen
-  saved: 32
-  link: http://bit.ly/2zrQDRq
-
-- title: "Finnischer Winterzauber im Nordlicht-Dorf"
-  id: ivalo
-  location: "Ivalo, Lappland, Finnland"
-  description: "Polarlicht-Magie, Schneeschuh-Tour & Rentierfütterung inkl. Flügen & Halbpension "
-  price: 1.129
-  price-description: pro Person für 3 Nächte
-  saved: 23
-  link: http://bit.ly/2PqNbRM
-  flight-tag: true
-
-- title: "Iglu-Romantik am Polarkreis"
-  id: rovaniemi
-  location: "Rovaniemi, Lappland, Finnland"
-  description: "Inkl. Flügen, Übernachtung im Glas-Iglu, Husky-Safari, Zoo-Eintritt & vielen Extras"
-  price: 1.579
-  price-description: pro Person für 4 Nächte
-  saved: 23
-  link: http://bit.ly/2PStMsl
-  flight-tag: true
+- title: Stilvoll im pulsierenden Osaka logieren
+  id: Oakwood-Hotel
+  location: Oakwood Hotel & Apartments Shin-Osaka, Osaka, Japan
+  description: "Deluxe-King- oder Executive-Twin-Studio, optional inkl. 1 Glas Wein & Snack "
+  price: 51
+  price-description: pro Person für 2 Nächte
+  saved: 45
+  link: http://bit.ly/2GjUKVC
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/84740/5a1c0bf5_1d95_4f0b_8336_9e3bc81812eb.jpg
+  flight-tag: #
